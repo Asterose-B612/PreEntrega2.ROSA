@@ -1,0 +1,188 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(156, 154, 154);
+}
+
+/*INDEX.HTML inicio*/
+
+.total__container {
+    background-image: linear-gradient(rgba(18, 18, 18, 0.502), rgba(255, 255, 255, 0.501)), url("../assets/images/portatil.jpg");
+    /*linea gradual con opacidad para dar efecto a la imagen,asi se destaca el texto*/
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+/*header inicio*/
+
+.header__containerg {
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+/*section*/
+.header__row1 {
+    padding: 0;
+    margin: 0;
+}
+
+.header__section1 {
+    padding: 0;
+    margin: 0;
+    height: 800px;
+}
+
+.general__jumbotron {
+    background: none;
+    height: 800px;
+    color: white;
+    text-shadow: 1px 3px 5px #000;
+    text-align: center;
+    padding-left: 0;
+    padding-right: o;
+    padding-bottom: 0;
+    padding-top: 300px;
+    margin-bottom: 0;
+}
+
+.jumbotron__container {
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron__h1 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    /*espaciado de interletrado*/
+}
+
+.jumbotron__p {
+    font-size: 40px;
+    letter-spacing: 10px;
+    /*espaciado de interletrado*/
+    color: #000;
+}
+
+.jumbotron__btn {
+    border-radius: 12px;
+}
+
+/*section fin*/
+/*aside*/
+
+.header__asideright {
+    background-color: rgba(0, 0, 0, 0.348);
+    height: 600px;
+    border-radius: 0 0 0 30px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.logo__container {
+    padding: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    min-width: none;
+}
+
+.logo {
+    border: 1px solid rgb(255, 0, 0);
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.menu__principal {
+    padding-top: 30px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.menu__principalli {
+    color: white;
+    text-align: center;
+}
+
+.menu__redes {
+    text-align: center;
+}
+
+/*aside fin*/
+/*header fin*/
+
+/*footer inicio*/
+.footer__container {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__row1 {
+    padding-top: 20px;
+    margin: 0;
+}
+
+.nav__legales {
+    background-color: rgba(0, 0, 0, 0.051);
+    border-radius: 30px 30px 0 0;
+    font-size: 10px;
+}
+
+.item__legales {
+    color: white;
+}
+
+/*footer fin*/
+/*INDEX fin*/
+
+/*INICIO ABOUT*/
+.total__container2 {
+    background-color: rgb(220, 220, 220);
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+/*tarjeta inicio */
+.card__general {
+    background-color: rgb(220, 220, 220);
+    border: none;
+}
+
+.card__h {
+    margin-bottom: 1rem;
+}
+
+.card__p {
+    color: rgb(28, 28, 28);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+
+
+.btn__about {
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+/*tarjeta fin */
+/*footer inicio*/
+
+.footer__container2 {
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(220, 220, 220);
+}
+
+/*footer fin*/
+/*FIN ABOUT*/
